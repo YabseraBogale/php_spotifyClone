@@ -1,0 +1,89 @@
+*{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+a{
+    background-color: #191414;
+    text-decoration: none;
+    
+}
+
+.main{
+    display: flex;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #191414;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+
+.library{
+
+    margin: 10px;
+    background-color: #191414;
+    border: 2px solid #191414;
+    border-radius: 5px;
+}
+
+.podcast{
+
+    margin: 10px;
+    background-color: #191414;
+    border: 2px solid #191414;
+    border-radius: 5px;
+
+}
+b{
+    background-color: #191414;
+}
+
+.c1{
+    background-color: #191414;
+    font-size: 20px;
+    
+}
+.c2{
+    background-color: #191414;
+}
+
+.c3{
+    color: #191414;
+    background-color: white;
+    
+    border: 2px solid #191414;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.c3:hover{
+   
+   font-size:22px;
+}
+
+.legal{
+    background-color: #191414;
+    margin:5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Log{
+
+    font-size: 20px;
+    align-items: end;
+
+}
+
+.Log button{
+    font-size: 20px;
+}
