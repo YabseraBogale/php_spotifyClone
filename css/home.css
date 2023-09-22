@@ -92,8 +92,22 @@ b{
     font-size: 20px;
 }
 
+h3,h2{
+    background-color: #191414;  
+}
+
+.lights{
+    background-color: #191414;  
+    margin: 15px;
+}
 .playlist{
     display: flex;
+    
+}
+
+ul{
+    list-style: none;
+    
 }
 
 img{
