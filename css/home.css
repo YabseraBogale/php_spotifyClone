@@ -2,6 +2,8 @@
     background-color: black;
     color: white;
 }
+
+
 nav{
     text-align: end;
     font-size: 25px;
@@ -34,4 +36,36 @@ nav{
 .sidebar{
     display: flex;
     flex-direction: column;
+}
+
+.main{
+    background-color: rgb(70, 66, 66);  
+    margin: 15px; 
+    padding:15px;
+    border-radius: 5px;
+}
+h1{
+    background-color: rgb(70, 66, 66);
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(70, 66, 66);           
+}
+
+li{
+    
+    border: 2px solid rgb(70, 66, 66);
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+img {
+  width: 200px;
+  height: 200px;
+  margin:5px;
 }
