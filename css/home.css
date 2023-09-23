@@ -1,115 +1,37 @@
 *{
-    padding: 5px;
     background-color: black;
     color: white;
 }
-a{
-    background-color: #191414;
-    text-decoration: none;
-    
+nav{
+    text-align: end;
+    font-size: 25px;
+    background-color: rgb(70, 66, 66);
+    padding:8px;
+    border-radius: 2px;
 }
 
-.main{
-    display: flex;
+.nav{
+    color: rgb(70, 66, 66);
+    background-color: white;
+    text-decoration: none;
+    padding: 4px;
+    border-radius: 2px;
+    
 }
+.nav:hover{
+    font-size: 28px;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.body{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+
 .sidebar{
     display: flex;
     flex-direction: column;
-    
-}
-.nav{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #191414;
-    border-radius: 5px;
-    font-size: 25px;
-}
-
-
-
-.library{
-
-    margin: 10px;
-    background-color: #191414;
-    border: 2px solid #191414;
-    border-radius: 5px;
-}
-
-.podcast{
-
-    margin: 10px;
-    background-color: #191414;
-    border: 2px solid #191414;
-    border-radius: 5px;
-
-}
-b{
-    background-color: #191414;
-}
-
-.c1{
-    background-color: #191414;
-    font-size: 20px;
-    
-}
-.c2{
-    background-color: #191414;
-}
-
-.c3{
-    color: #191414;
-    background-color: white;
-    
-    border: 2px solid #191414;
-    border-radius: 5px;
-    font-size: 20px;
-}
-.c3:hover{
-   
-   font-size:22px;
-}
-
-.legal{
-    background-color: #191414;
-    margin:5px;
-    display: flex;
-    flex-direction: column;
-
-}
-
-
-.b1{
-    font-size: medium;
-    background-color: #191414;
-    color: white;
-    border: 2px solid #191414;
-    border-radius: 5px;
-}
-
-.b1:hover{
-    background-color: white;
-    color: #191414;
-    font-size: 20px;
-}
-
-h3,h2{
-    background-color: #191414;  
-}
-
-.lights{
-    background-color: #191414;  
-    margin: 15px;
-}
-.playlist{
-    display: flex;
-    
-}
-
-ul{
-    list-style: none;
-    
-}
-
-img{
-    width: 260px;
 }
